@@ -1,0 +1,59 @@
+/* This is for MOUNTAINS page */
+ body {
+  background-image: url("https://media.cntraveler.com/photos/5949abf42bd0d42819c6065e/4:3/pass/Big-Bend-GettyImages-516259396.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding-bottom: 100px; 
+}
+  h1 {
+    text-align: center;
+  }
+  
+  #mountainSelect {
+    margin: 20px;
+  }
+  
+  #mountainInfo {
+    margin: 20px;
+  }
+  
+  #mountainInfo h2 {
+    font-size: 24px;
+  }
+  
+  #mountainInfo p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.503);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .follow-icons {
+    margin-top: 10px;
+  }
+  
+  .follow-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffffff; /* Adjust the color*/
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .follow-icons a:hover {
+    color: #656565; /* Adjust the hover color*/
+  }
